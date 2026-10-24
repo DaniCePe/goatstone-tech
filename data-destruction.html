@@ -35,7 +35,7 @@
 <p><b>Purge</b> applies physical or logical techniques that make recovery infeasible even with state-of-the-art laboratory methods, while keeping the device usable. Firmware commands (ATA Sanitize, NVMe Sanitize, cryptographic erase where its conditions are met) are the standard route for drives that will be resold.</p>
 <p><b>Destroy</b> makes recovery infeasible and the media unusable: shredding, crushing, or incineration by our downstream partners. For flash media, destruction means damaging the flash chips; degaussing does nothing to an SSD and is not a Destroy method under Rev. 2.</p>
 <h2>Verification and validation</h2>
-<p>Every job is verified (the tool result, error status, and drive health are checked) and then validated (a named person reviews the result and accepts or rejects it). A rejected job is re-run with a different technique or escalated to a stronger method. A finished progress bar alone never counts as proof.</p>
+<p>Two checks run on every job. Verification: we read the tool result, the error status, and the drive health data. Validation: a named person reviews that result and signs it accepted or rejected. A rejected job gets re-run with a different technique or moved up to a stronger method. The tool finishing its run is not, by itself, accepted as proof.</p>
 <h2>Your certificate</h2>
 <p>Each destroyed or purged drive gets a certificate carrying the fields NIST Rev. 2 Sec. 4.6 calls for: manufacturer, model, serial number, media type and source, method and technique, tool and version, verification method, and the validator's name, title, date, location, and signature.</p>
 <h2>About "DoD wipes"</h2>
