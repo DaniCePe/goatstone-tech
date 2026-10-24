@@ -625,3 +625,13 @@ h1,h2,h3,h4,.logo a{font-family:"Steelfish","Steelfish",serif}
 #adbox .detail h1{font-family:"Steelfish",serif}
 #contents p{font-size:15px;line-height:1.5}
 input[type='text'],textarea{font-family:"Share Tech",Arial,sans-serif}
+
+/* Goatstone: larger headers (Daniel, 2026-10-23) */
+.logo a{font-size:42px}
+#header .navigation li a{font-size:16px}
+#adbox .detail h1{font-size:46px;line-height:1.1}
+#adbox .detail p{font-size:19px}
+.highlight h1{font-size:36px;line-height:1.2}
+#contents .main h1{font-size:38px;line-height:1.15}
+#contents h2,.featured h2,.sidebar h2{font-size:26px;line-height:1.25}
+#footer h4{font-size:21px}
